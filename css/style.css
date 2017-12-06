@@ -429,7 +429,12 @@ footer li{
 		font-size: 10px;
 	}
 
-	.contact img{
+	.pricing h2{
+
+		font-size: 1rem;
+	}
+
+	.contact img, header img{
 
 		width: 100%;
 	}
