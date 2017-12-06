@@ -296,6 +296,7 @@ article{
 	display: block;
 	margin: auto;
 	padding: 1rem;
+	width: 100%;
 
 }
 
@@ -427,12 +428,6 @@ footer li{
 
 		font-size: 1rem;
 	}
-
-	.contact img{
-
-		width: 100%;
-	}
-	
 }
 
 
