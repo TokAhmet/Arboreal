@@ -37,6 +37,7 @@ p{
 
 header{
 
+	background-color: #fff;
 	border-bottom: 1px solid black;
 	display: flex;
 	flex-flow: row wrap;	
@@ -44,10 +45,9 @@ header{
 	position: fixed;
 	width: 100%;
 	z-index: 1;
-	background-color: #fff;
 }
 
-header nav{
+.navbar{
 
 	margin: auto;
 	padding-bottom: 0.5rem; 
@@ -57,22 +57,19 @@ header nav{
 header img{
 
 	display: block;
-	font-size: 2rem;
-	font-style: italic;
 	margin: auto;
 	padding: 1rem;
-	text-align: center;
 }
 
 
-header li{
+.navbar li{
 
 	display: inline;
 	list-style: none;
 	margin: 1rem;
 }
 
-header a{
+.navbar a{
 
 	color: #003380;
 	font-size: 20px;
@@ -81,7 +78,7 @@ header a{
 	text-decoration: none;
 }
 
-nav li>.current a , nav a:hover{
+.navbar li>.current a , .navbar a:hover{
 
 	animation: fadein 1.5s;
 	border-bottom: 3px solid black;
@@ -96,8 +93,8 @@ nav li>.current a , nav a:hover{
 	background: url(../img/flower.jpg) no-repeat center center;
 	border-bottom: 1px solid black;
 	display: flex;
-	height: 35rem;
-	padding-top: 3rem;
+	height: 45rem;
+	padding-top: 5rem;
 } 
 
 .showcase img{
@@ -427,18 +424,11 @@ footer li{
 }
 
 @media (max-width: 500px) {
-	header a{
+	.navbar a{
 	
 		font-size: 10px;
 	}
 	
-	table,td,th{
-		
-	font-size: 10px;
-	margin: 0;
-   	padding: 0;
-
-	}
 }
 
 @media (max-width:900px) {
@@ -447,19 +437,9 @@ footer li{
 		margin: auto;
 	}
 
-	.showcase{
-	
-		padding-top: 5rem
-
-	}
 }
 
 @media (max-width: 1300px){
-	.showcase{
-
-		padding-top: 5rem;
-
-	}
 
 	footer ul{
 
