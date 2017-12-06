@@ -254,6 +254,27 @@ article{
 	text-align: center;
 }
 
+#standard {
+
+	animation-name: standardColor;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#premium{
+
+	animation-name: premiumColor;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#exclusive{
+
+	animation-name: exclusiveColor;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
 
 /* CONTACT */
 
@@ -306,7 +327,6 @@ form{
 
 }
 
-
 .li-forms button:hover{
 
 	cursor: pointer;
@@ -357,6 +377,27 @@ footer li{
     to {
         opacity: 1;
     }	  
+}
+
+@keyframes standardColor{
+
+	50% {background-color: #805500;}
+	100% {background-color: #333;}
+
+}
+
+@keyframes premiumColor{
+
+	50% {background-color: #b3b3b3;}
+	100% {background-color: #333;}
+
+}
+
+@keyframes exclusiveColor{
+
+	50% {background-color: #ffd700;}
+	100% {background-color: #333;}
+
 }
 
 
