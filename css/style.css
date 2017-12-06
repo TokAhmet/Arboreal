@@ -412,6 +412,21 @@ footer li{
 
 }
 
+@media (max-width: 500px) {
+	header a{
+	
+		font-size: 10px;
+	}
+	
+	table,td,th{
+		
+	font-size: 10px;
+	margin: 0;
+   	padding: 0;
+
+	}
+}
+
 @media (max-width:900px) {
 	.column{
 
