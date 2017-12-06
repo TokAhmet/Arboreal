@@ -9,7 +9,6 @@
 body {
 
 	animation: fadein 2s;
-	background-color: #ebebfa;
 	font-family: sans-serif;
 	line-height: 1.5;
 	margin: auto;
@@ -42,6 +41,10 @@ header{
 	display: flex;
 	flex-flow: row wrap;	
 	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	background-color: #fff;
 }
 
 header nav{
@@ -94,6 +97,7 @@ nav li>.current a , nav a:hover{
 	border-bottom: 1px solid black;
 	display: flex;
 	height: 35rem;
+	padding-top: 3rem;
 } 
 
 .showcase img{
@@ -217,7 +221,13 @@ article{
 	border-bottom: 1px solid black;
 	margin: auto;
 	min-height: 25rem;
-	padding-bottom: 3rem;
+	padding-bottom: 1rem;
+}
+
+.pricing .wrapper{
+
+
+
 }
 
 .pricing img {
@@ -227,53 +237,55 @@ article{
 	padding: 1rem;
 }
 
-.pricing table{
-
-	background-color: #333;
-	color: #fff;
-	margin: auto;
-	opacity: 0.9;
-	width: 96%;
-}
-
-.pricing th{
-
-	border: 2px solid #fff;
-	font-family: monospace;
-	font-size: 24px;
-	font-weight: bold;
-	padding-bottom: 0.5rem;
-	text-decoration: underline;
-}
-
-.pricing td{
-
-	border: 2px solid #fff;
-	margin: 0.5rem;
+.pricing li>h2{
+	
+	border: 3px solid white;
+	border-radius: 10px;
+	margin: 0.5rem;	
 	padding: 1rem;
-	text-align: center;
+	text-decoration: none;
+
 }
 
-#standard {
+.pricing ul{
+
+	list-style: none;
+
+}
+
+.pricing li{
+
+	border-bottom: 2px solid white;
+	padding: 0.8rem;
+	font-size: 20px;
+	font-style: italic;
+
+}
+
+#standard:hover {
 
 	animation-name: standardColor;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
+	cursor: pointer;
 }
 
-#premium{
+#premium:hover {
 
 	animation-name: premiumColor;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
+	cursor: pointer;
 }
 
-#exclusive{
+#exclusive:hover {
 
 	animation-name: exclusiveColor;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
+	cursor: pointer;
 }
+
 
 
 /* CONTACT */
@@ -434,9 +446,21 @@ footer li{
 
 		margin: auto;
 	}
+
+	.showcase{
+	
+		padding-top: 5rem
+
+	}
 }
 
 @media (max-width: 1300px){
+	.showcase{
+
+		padding-top: 5rem;
+
+	}
+
 	footer ul{
 
 		flex-direction: column;

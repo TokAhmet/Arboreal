@@ -4,7 +4,7 @@ $(document).ready(function () {
 		var linkhref = $(this).attr("href");
 
 		$("html, body").animate({
-			scrollTop: $(linkhref).offset().top
+			scrollTop: $(linkhref).offset().top - 113
 		},1000);
 
 
