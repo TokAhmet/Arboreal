@@ -414,7 +414,7 @@ footer li{
 
 /* MEDIA QUERIES */
 
-@media (min-width:900px){
+@media (min-width: 900px){
 	.container, .column , article, footer{
 
 		display: flex;
@@ -423,7 +423,7 @@ footer li{
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
 	.navbar a{
 	
 		font-size: 10px;
@@ -441,7 +441,26 @@ footer li{
 	
 }
 
-@media (max-width:900px) {
+
+@media (max-width: 568px) {
+		.navbar a{
+	
+		font-size: 10px;
+	}
+
+	.pricing h2{
+
+		font-size: 1rem;
+	}
+
+	.contact img, header img{
+
+		width: 100%;
+	}
+	
+}
+
+@media (max-width: 900px) {
 	.column{
 
 		margin: auto;
