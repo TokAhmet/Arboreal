@@ -230,6 +230,7 @@ article{
 
 .pricing li>h2{
 	
+	background-color: #262626;
 	border: 3px solid white;
 	border-radius: 10px;
 	margin: 0.5rem;	
@@ -394,21 +395,21 @@ footer .list-icon{
 @keyframes standardColor{
 
 	50% {background-color: #805500;}
-	100% {background-color: #333;}
+	100% {background-color: #262626;}
 
 }
 
 @keyframes premiumColor{
 
 	50% {background-color: #b3b3b3;}
-	100% {background-color: #333;}
+	100% {background-color: #262626;}
 
 }
 
 @keyframes exclusiveColor{
 
 	50% {background-color: #ffd700;}
-	100% {background-color: #333;}
+	100% {background-color: #262626;}
 
 }
 
