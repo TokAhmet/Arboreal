@@ -461,7 +461,12 @@ footer .list-icon{
 
 		margin: auto;
 	}
+	
+	.container{
 
+		padding: 0 1rem;
+
+	}
 }
 
 @media (max-width: 1300px){
