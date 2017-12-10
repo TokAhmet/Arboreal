@@ -438,10 +438,16 @@ footer .list-icon{
 }
 
 
-@media (max-width: 568px) {
+@media (max-width: 585px) {
 		.navbar a{
 	
 		font-size: 10px;
+	}
+	
+	.row{
+		
+		width: 90%;
+		
 	}
 
 	.pricing h2{
