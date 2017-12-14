@@ -47,13 +47,6 @@ header{
 	z-index: 1;
 }
 
-.navbar{
-
-	margin: auto;
-	padding-bottom: 0.5rem; 
-	text-transform: uppercase;
-}
-
 header img{
 
 	display: block;
@@ -61,6 +54,12 @@ header img{
 	padding: 1rem;
 }
 
+.navbar{
+
+	margin: auto;
+	padding-bottom: 0.5rem; 
+	text-transform: uppercase;
+}
 
 .navbar li{
 
@@ -431,20 +430,22 @@ footer .list-icon{
 }
 
 @media (max-width: 480px) {
-	.navbar a{
 	
-		font-size: 10px;
-	}
-
 	.pricing h2{
 
 		font-size: 1rem;
 	}
 }
 
-
 @media (max-width: 585px) {
-		.navbar a{
+	
+	header img{
+	
+	display: none;
+
+	}
+
+	.navbar a{
 	
 		font-size: 10px;
 	}
@@ -460,7 +461,7 @@ footer .list-icon{
 		font-size: 1rem;
 	}
 
-	.contact img, header img{
+	.contact img{
 
 		width: 100%;
 	}
