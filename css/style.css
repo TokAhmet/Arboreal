@@ -2,13 +2,17 @@
 
 *{
 
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+	        box-sizing: border-box;
 
 }
 
 body {
 
-	animation: fadein 2s;
+	-webkit-animation: fadein 2s;
+
+	        animation: fadein 2s;
 	font-family: sans-serif;
 	line-height: 1.5;
 	margin: auto;
@@ -23,7 +27,8 @@ ul {
 h1,h2,h3,h4{
 
 	text-align: center;	
-	text-decoration-line: underline;
+	-webkit-text-decoration-line: underline;	
+	        text-decoration-line: underline;
 }
 
 p{
@@ -39,9 +44,16 @@ header{
 
 	background-color: #fff;
 	border-bottom: 1px solid black;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-flow: row wrap;	
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row wrap;
+	        flex-flow: row wrap;	
+	-webkit-box-pack: justify;	
+	    -ms-flex-pack: justify;	
+	        justify-content: space-between;
 	position: fixed;
 	width: 100%;
 	z-index: 1;
@@ -75,13 +87,16 @@ header img{
 	font-style: italic;
 	font-weight: bold;
 	text-decoration: none;
+	-o-transition: 1s;
 	transition: 1s;
 	-webkit-transition: 1s;
 }
 
 .navbar li>.current a , .navbar a:hover{
 
-	animation: fadein 1.5s;
+	-webkit-animation: fadein 1.5s;
+
+	        animation: fadein 1.5s;
 	border-bottom: 3px solid black;
 	font-size: 21px;
 	padding-bottom: 2px; 
@@ -94,6 +109,8 @@ header img{
 
 	background: url(../img/flower.jpg) no-repeat center center;
 	border-bottom: 1px solid black;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	height: 45rem;
 	padding-top: 5rem;
@@ -143,7 +160,10 @@ article{
 	
 	background: -webkit-linear-gradient(-45deg, rgba(246,248,249,1) 35%,rgba(215,222,227,1) 65%,rgba(215,222,227,1) 70%,rgba(215,222,227,1) 70%,rgba(215,222,227,1) 75%,rgba(215,222,227,1) 77%,rgba(215,222,227,1) 79%,rgba(215,222,227,1) 90%,rgba(215,222,227,1) 95%,rgba(215,222,227,1) 99%,rgba(215,222,227,1) 100%,rgba(245,247,249,1) 100%);
 	border-bottom: 1px solid black;
-	flex-flow: row wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-flow: row wrap;
+	        flex-flow: row wrap;
 	line-height: 1.5;
 	margin: 0 auto;
 	min-height: 30rem;
@@ -155,8 +175,11 @@ article{
 .about{
 
 	border: 1px solid black;
-	flex: 1;
-	flex-wrap: wrap;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	margin: auto;
 	padding: 1rem;
 	text-align: center;
@@ -165,9 +188,17 @@ article{
 
 .column{
 
-	flex: 1;
-	flex-direction: column;
-	flex-wrap: wrap;
+	-webkit-box-flex: 1;
+
+	    -ms-flex: 1;
+
+	        flex: 1;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	line-height: 1.5;
 	margin-left: 1rem;
 
@@ -208,8 +239,10 @@ article{
 	background-color: #333;
 	border: 2px solid black;
 	color: #fff;
-	flex-basis: 30%;
-	flex-wrap: wrap;
+	-ms-flex-preferred-size: 30%;
+	    flex-basis: 30%;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	margin-bottom: 2rem;
 	opacity: 0.9;
 	padding: 1rem;
@@ -263,25 +296,37 @@ article{
 
 #standard:hover {
 
-	animation-name: standardColor;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
+	-webkit-animation-name: standardColor;
+
+	        animation-name: standardColor;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
 	cursor: pointer;
 }
 
 #premium:hover {
 
-	animation-name: premiumColor;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
+	-webkit-animation-name: premiumColor;
+
+	        animation-name: premiumColor;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
 	cursor: pointer;
 }
 
 #exclusive:hover {
 
-	animation-name: exclusiveColor;
-	animation-duration: 2s;
-	animation-iteration-count: infinite;
+	-webkit-animation-name: exclusiveColor;
+
+	        animation-name: exclusiveColor;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
 	cursor: pointer;
 }
 
@@ -320,8 +365,13 @@ form{
 }
 
 .li-forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: auto;
     padding: 0.7rem;
 }
@@ -369,7 +419,13 @@ footer h3{
 
 footer ul{
 
-	align-items: center;
+	-webkit-box-align: center;
+
+	    -ms-flex-align: center;
+
+	        align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin: auto;
 
@@ -389,6 +445,16 @@ footer .list-icon{
 
 /* ANIMATION */
 
+@-webkit-keyframes fadein { 
+	
+	from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }	  
+}
+
 @keyframes fadein { 
 	
 	from {
@@ -399,6 +465,13 @@ footer .list-icon{
     }	  
 }
 
+@-webkit-keyframes standardColor{
+
+	50% {background-color: #805500;}
+	100% {background-color: #262626;}
+
+}
+
 @keyframes standardColor{
 
 	50% {background-color: #805500;}
@@ -406,9 +479,23 @@ footer .list-icon{
 
 }
 
+@-webkit-keyframes premiumColor{
+
+	50% {background-color: #b3b3b3;}
+	100% {background-color: #262626;}
+
+}
+
 @keyframes premiumColor{
 
 	50% {background-color: #b3b3b3;}
+	100% {background-color: #262626;}
+
+}
+
+@-webkit-keyframes exclusiveColor{
+
+	50% {background-color: #ffd700;}
 	100% {background-color: #262626;}
 
 }
@@ -426,8 +513,13 @@ footer .list-icon{
 @media (min-width: 900px){
 	.container, .column , article, footer{
 
+		display: -webkit-box;
+
+		display: -ms-flexbox;
+
 		display: flex;
-		justify-content: space-around;
+		-ms-flex-pack: distribute;
+		    justify-content: space-around;
 	}
 
 }
@@ -436,7 +528,13 @@ footer .list-icon{
 
 	footer ul{
 
-		flex-direction: column;
+		-webkit-box-orient: vertical;
+
+		-webkit-box-direction: normal;
+
+		    -ms-flex-direction: column;
+
+		        flex-direction: column;
 		
 	}
 	
@@ -476,7 +574,7 @@ footer .list-icon{
 
 	.navbar a{
 	
-		font-size: 1rem;
+		font-size: 25px;
 	}
 
 	.navbar a:hover{
@@ -520,10 +618,9 @@ footer .list-icon{
 	.navbar a:hover{
 		
 		font-size: 8px;
+		-o-transition: none;
 		transition: none;
 		-webkit-transition: none;
 	}
 	
 }
-
-
