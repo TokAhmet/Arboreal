@@ -71,17 +71,20 @@ header img{
 .navbar a{
 
 	color: #003380;
-	font-size: 20px;
+	font-size: 19px;
 	font-style: italic;
 	font-weight: bold;
 	text-decoration: none;
+	transition: 1s;
+	-webkit-transition: 1s;
 }
 
 .navbar li>.current a , .navbar a:hover{
 
 	animation: fadein 1.5s;
 	border-bottom: 3px solid black;
-	padding-bottom: 2px;
+	font-size: 21px;
+	padding-bottom: 2px; 
 }
 
 
@@ -448,6 +451,11 @@ footer .list-icon{
 	.navbar a{
 	
 		font-size: 10px;
+	}
+
+	.navbar a:hover{
+
+		font-size: 15px;
 	}
 	
 	.row{
