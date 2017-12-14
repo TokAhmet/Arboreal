@@ -432,11 +432,31 @@ footer .list-icon{
 
 }
 
-@media (max-width: 480px) {
-	
-	.pricing h2{
+@media (max-width: 1300px){
 
-		font-size: 1rem;
+	footer ul{
+
+		flex-direction: column;
+		
+	}
+	
+	footer li{
+
+		margin: 0.5rem;
+	}
+
+}
+
+@media (max-width: 900px) {
+	.column{
+
+		margin: auto;
+	}
+	
+	.container{
+
+		padding: 0 1rem;
+
 	}
 }
 
@@ -482,30 +502,28 @@ footer .list-icon{
 	
 }
 
-@media (max-width: 900px) {
-	.column{
-
-		margin: auto;
-	}
+@media (max-width: 480px) {
 	
-	.container{
+	.pricing h2{
 
-		padding: 0 1rem;
-
+		font-size: 1rem;
 	}
 }
 
-@media (max-width: 1300px){
-
-	footer ul{
-
-		flex-direction: column;
+@media (max-width: 375px){
+	
+	.navbar a{
 		
+		font-size: 8px;
+	}
+
+	.navbar a:hover{
+		
+		font-size: 8px;
+		transition: none;
+		-webkit-transition: none;
 	}
 	
-	footer li{
-
-		margin: 0.5rem;
-	}
-
 }
+
+
