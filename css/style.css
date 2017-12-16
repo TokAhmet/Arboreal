@@ -445,16 +445,6 @@ footer .list-icon{
 
 /* ANIMATION */
 
-@-webkit-keyframes fadein { 
-	
-	from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }	  
-}
-
 @keyframes fadein { 
 	
 	from {
@@ -465,12 +455,6 @@ footer .list-icon{
     }	  
 }
 
-@-webkit-keyframes standardColor{
-
-	50% {background-color: #805500;}
-	100% {background-color: #262626;}
-
-}
 
 @keyframes standardColor{
 
@@ -479,23 +463,9 @@ footer .list-icon{
 
 }
 
-@-webkit-keyframes premiumColor{
-
-	50% {background-color: #b3b3b3;}
-	100% {background-color: #262626;}
-
-}
-
 @keyframes premiumColor{
 
 	50% {background-color: #b3b3b3;}
-	100% {background-color: #262626;}
-
-}
-
-@-webkit-keyframes exclusiveColor{
-
-	50% {background-color: #ffd700;}
 	100% {background-color: #262626;}
 
 }
