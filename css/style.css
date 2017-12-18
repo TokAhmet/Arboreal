@@ -258,6 +258,7 @@
 
  	background-color: #333;
  	border: 2px solid black;
+ 	box-shadow: 5px 10px 22px #0d0d0d;
  	color: #fff;
  	-ms-flex-preferred-size: 30%;
  	flex-basis: 30%;
@@ -282,12 +283,18 @@
  	padding-bottom: 1rem;
  }
 
-
  .pricing img {
 
  	display: block;
  	margin: auto;
  	padding: 1rem;
+ }
+
+ .pricing .wrapper{
+
+ 	border-width: 8px;
+ 	border-style: outset;
+
  }
 
  .pricing li>h2{
@@ -379,6 +386,7 @@
  	background-color: #333;
  	border: 2px solid black;
  	border-radius: 1rem;
+ 	box-shadow: 5px 10px 22px #0d0d0d;
  	color: #fff;
  	margin: auto;
  	max-width: 30rem;
@@ -401,21 +409,53 @@
  	padding: 0.5rem;
  }
 
- .li-forms button {
- 	background: silver;
- 	border: 0;
- 	border-radius: 10px;
- }
-
  .li-forms input:focus, textarea:focus{
 
  	outline: 2px solid turquoise;
  }
 
+ .li-forms button {
+ 	
+ 	background-color: silver;
+ 	border: 0;
+ 	border-radius: 10px;
+ 	font-weight: bold;
+ }
+
+
  .li-forms button:hover{
 
  	cursor: pointer;
- 	font-weight: bold;
+ }
+
+ .li-forms button:active{
+
+ 	transform: translateY(3px);
+
+ }
+
+ .li-forms button span {
+
+ 	position: relative;
+ 	transition: 0.5s;
+ }
+
+ .li-forms button span:after {
+ 	content: '\00bb';
+ 	position: absolute;
+ 	opacity: 0;
+ 	top: 0;
+ 	right: -20px;
+ 	transition: 0.5s;
+ }
+
+ .li-forms button:hover span {
+ 	padding-right: 25px;
+ }
+
+ .li-forms button:hover span:after {
+ 	opacity: 1;
+ 	right: 0;
  }
 
 
