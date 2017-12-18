@@ -294,7 +294,7 @@
 
  	background-color: #262626;
  	border: 3px solid white;
- 	border-radius: 10px;
+ 	border-radius: 40px;
  	margin: 0.5rem;	
  	padding: 1rem;
  	text-decoration: none;
@@ -610,6 +610,6 @@
  		transition: none;
  		-webkit-transition: none;
  	}
- 	
+
  }
 
