@@ -597,9 +597,6 @@
 
  		font-size: 1rem;
  	}
- }
-
- @media (max-width: 375px){
 
  	.navbar a{
 
@@ -613,5 +610,6 @@
  		transition: none;
  		-webkit-transition: none;
  	}
-
+ 	
  }
+
