@@ -554,7 +554,7 @@
 
  /* MEDIA QUERIES */
 
- @media (min-width: 900px){
+ @media all and (min-width: 900px){
  	.container, .column , article, footer{
 
  		display: -webkit-box;
@@ -568,7 +568,7 @@
 
  }
 
- @media (max-width: 1300px){
+ @media screen and (max-width: 1300px){
 
  	footer ul{
 
@@ -589,7 +589,7 @@
 
  }
 
- @media (max-width: 900px) {
+ @media screen and (max-width: 900px) {
  	.column{
 
  		margin: auto;
@@ -602,7 +602,7 @@
  	}
  }
 
- @media (max-width: 585px) {
+ @media screen and (max-width: 585px) {
 
  	header{
 
@@ -644,7 +644,7 @@
 
  }
 
- @media (max-width: 480px) {
+ @media screen and (max-width: 480px) {
 
  	.pricing h2{
 
