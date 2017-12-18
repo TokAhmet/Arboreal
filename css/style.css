@@ -125,8 +125,9 @@
 
  }
 
- .row{
+ .showcase_info{
 
+ 	animation: zoomIn 1s;
  	background: #333;
  	border: 3px solid black;
  	border-radius: 90px;
@@ -137,7 +138,7 @@
 
  }
 
- .row h1{
+ .showcase_info h1{
 
  	font-size: 50px;
  	margin: 0;
@@ -145,7 +146,7 @@
 
  }
 
- .row p{
+ .showcase_info p{
 
  	font-size: 2rem;
  	margin: 0;
@@ -517,6 +518,18 @@
  }
 
 
+ @keyframes zoomIn {
+ 	from {
+ 		opacity: 0;
+ 		transform: scale3d(.3, .3, .3);
+ 	}
+
+ 	50% {
+ 		opacity: 1;
+ 	}
+ }
+
+
  @keyframes standardColor{
 
  	50% {background-color: #805500;}
@@ -613,7 +626,7 @@
  		font-size: 1.2rem;
  	}
 
- 	.row{
+ 	.showcase_info{
 
  		width: 90%;
 
