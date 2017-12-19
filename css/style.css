@@ -653,12 +653,12 @@
 
  	.navbar a{
 
- 		font-size: 12px;
+ 		font-size: 10px;
  	}
 
  	.navbar a:hover{
 
- 		font-size: 12px;
+ 		font-size: 10px;
  		-o-transition: none;
  		transition: none;
  		-webkit-transition: none;
