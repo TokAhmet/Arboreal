@@ -13,7 +13,7 @@
  	-webkit-animation: fadein 2s;
 
  	animation: fadein 2s;
- 	font-family: sans-serif;
+ 	font: 1em arial, sans-serif;
  	line-height: 1.5;
  	margin: auto;
  }
@@ -27,13 +27,13 @@
  h1,h2,h3,h4{
 
  	text-align: center;	
+ 	letter-spacing: 2px;
+ 	text-shadow: 5px 10px 10px #0d0d0d;
  	-webkit-text-decoration-line: underline;	
  	text-decoration-line: underline;
  }
 
  p{
-
- 	font-style: italic;
  	text-align: center;
  }
 
