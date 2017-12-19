@@ -13,7 +13,7 @@
  	-webkit-animation: fadein 2s;
 
  	animation: fadein 2s;
- 	font: 1em arial, sans-serif;
+ 	font-size: 1em;
  	line-height: 1.5;
  	margin: auto;
  }
@@ -35,6 +35,7 @@
 
  p{
  	text-align: center;
+ 	font-family: "Open Sans", sans-serif;
  }
 
 
