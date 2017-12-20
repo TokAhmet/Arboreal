@@ -1,10 +1,10 @@
 Hejsan! 
 
-Jag har skapat en hemsida fÃ¶r Arboreal som Ã¤r en prenumerationstjÃ¤nst fÃ¶r fÃ¶retag.
-De hjÃ¤lper fÃ¶retag att dekorera sina kontor med fina vÃ¤xter som man sedan betalar varje mÃ¥ndad fÃ¶r att fÃ¥ in nya samt frÃ¤sha det gamla.
+Jag har skapat en hemsida får Arboreal som Ã¤r en prenumerationstjänst får företag.
+De hjälper företag att dekorera sina kontor med fina växter som man sedan betalar varje månad får att få in nya samt förnya det gamla.
 
-Jag har skapat en HTML,CSS,JS fil samt lagt till ett par bilder fÃ¶r att snygga till det lite.
-var god kolla igenom koden och se ifall du fann nÃ¥gra fel eller nÃ¥got jag kunde fÃ¶rbÃ¤ttra :).
+Jag har skapat en HTML,CSS,JS fil samt lagt till ett par bilder får att snygga till det lite.
+var god kolla igenom koden och se ifall du fann några fel eller något jag kunde fårbättra :).
 
 
 Validering:
@@ -76,31 +76,26 @@ jag använde mig utav media-queries för samtliga bildskärmar(desktop, tablet, mob
 
 BreakPoints
 
+1024px: gör headern lite mindre samt font storleken och att container klassen inte kramar sidoväggen.
 
-1.css: rad 64 margin: auto;
+900px: gömmer huvudloggan och gör navbar storleken lite mindre så att den inte tar så mycket plats
 
-jag valde margin: auto; för att det fungerar väl med flexbox när man ska centrera divar eller bilder i din sida under alla skärmstorlekar vilket även gör det responsivt.
-
-2.css rad 113, 230, 251, 260, 268, 394 
-background: url() no-repeat center center;
-
-har gett samma värde för alla backrundsbilder jag använder för att få bilden att täcka backrunden så bra som möjligt vilket ger användaren ett bättre blick om vilken section man är i.
-
-
-3.css: rad 211, 234, 298 padding-bottom: 1rem;
-
-Använde samma värde för att uppfylla samma krav som var att bli lite luftigare än att krama nedre vägen.
-
-4.css rad 282 flex basis: 30%;
-
-Eftersom Jag körde med en 3 column layout valde jag att göra 30% width på mina wrapper and sedan lägga till en 
-justify-content: space around; som såg till att alla får det samma bredd och flyter ifrån varandra oavsett bredd.
-
-5.css rad 649 @media all and (min-width: 1025px)
-
-jag gav värdet 1025px för att de flesta desktop skärmar stiger över det värdet vilket det förhoppningsvis kommer att uppfylla sålänge det är en desktop. 
+480px: gör font storleken ännu mindre för smalla skärmar liksom de äldra versionerna av smartphones.
 
 Responsiv Mönster
 
-Jag har utgått från 3 column flexbox desktop mönster för att de flesta sectioner handla om 3 olika teman samt priser och ville få ut allt så att de tar lika mycket plats när det gäller desktop, för tablet/mobil så tog jag bort flexbox och minskade måtten de flesta värden till en viss pixlar där det passar bäst till beronde på skärmstorleken.
+Jag har utgått från mostly fluid för att göra det så mycket responsiv som möjligt jag använde desstuom ett par max-width breakpoint som går allt från mobil anpassat till desktop skärmar, ett exempel kan vara att huvudloggan inte syns på mobil anpassade enheter.
 
+Feedback
+
+då jag inte fick så mycket kritik så följde jag den feedback jag fick när det handla om theme sektionen så jag ändrade lite och gav varje tema lite mer plats samt en bild om hur den ser ut när man hover. förutom det så var det ochså att jag hade både px på vissa ställen och inte rem men jag behövde de exakta värden för att hålla alla på bättre plats.
+
+
+Fungerande Browsers
+
+Firefox
+Chrome
+Android
+IOS
+Microsoft Edge
+Internet Explorer 11,10
