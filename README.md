@@ -65,5 +65,42 @@ Finns det element som Ã¤r ojÃ¤mnt centrerade etc.?
 
 
 Ã–vriga synpunkter
- - Saknar rapporten hur valideringen gick.
  - Funderar pÃ¥ om "About us" Ã¤r mer fÃ¶r oss sÃ¥ vi fÃ¶rstÃ¥r fÃ¶reaget och vad de vill nÃ¥ ut med Ã¤n info fÃ¶r hemsidan.
+
+
+
+Arboreal del 2
+
+jag använde mig utav media-queries för samtliga bildskärmar(desktop, tablet, mobil) see css-filen.
+
+
+BreakPoints
+
+
+1.css: rad 64 margin: auto;
+
+jag valde margin: auto; för att det fungerar väl med flexbox när man ska centrera divar eller bilder i din sida under alla skärmstorlekar vilket även gör det responsivt.
+
+2.css rad 113, 230, 251, 260, 268, 394 
+background: url() no-repeat center center;
+
+har gett samma värde för alla backrundsbilder jag använder för att få bilden att täcka backrunden så bra som möjligt vilket ger användaren ett bättre blick om vilken section man är i.
+
+
+3.css: rad 211, 234, 298 padding-bottom: 1rem;
+
+Använde samma värde för att uppfylla samma krav som var att bli lite luftigare än att krama nedre vägen.
+
+4.css rad 282 flex basis: 30%;
+
+Eftersom Jag körde med en 3 column layout valde jag att göra 30% width på mina wrapper and sedan lägga till en 
+justify-content: space around; som såg till att alla får det samma bredd och flyter ifrån varandra oavsett bredd.
+
+5.css rad 649 @media all and (min-width: 900px)
+
+jag gav värdet 900px för att de flesta desktop skärmar stiger över det värdet vilket det förhoppningsvis kommer att uppfylla sålänge det är en desktop. 
+
+Responsiv Mönster
+
+Jag har utgått från 3 column flexbox desktop mönster för att de flesta sectioner handla om 3 olika teman samt priser och ville få ut allt så att de tar lika mycket plats när det gäller desktop, för tablet/mobil så tog jag bort flexbox och minskade måtten de flesta värden till en viss pixlar där det passar bäst till beronde på skärmstorleken.
+
