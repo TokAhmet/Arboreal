@@ -85,7 +85,7 @@
  .navbar a{
 
  	color: #003380;
- 	font-size: 19px;
+ 	font-size: 20px;
  	font-style: italic;
  	font-weight: bold;
  	text-decoration: none;
@@ -312,11 +312,11 @@
  	and pricing as they almost serve the same purpose 
  	but had to change small things */
 
- .pricing .wrapper{
+ 	.pricing .wrapper{
 
-	border-width: 0.5rem;
-	border-style: outset;
-}
+ 		border-width: 0.5rem;
+ 		border-style: outset;
+ 	}
 
  	.pricing li>h2{
 
@@ -646,7 +646,7 @@ footer .list-icon{
 
 /* Resolution for most desktop */
 
-@media all and (min-width: 900px){
+@media all and (min-width: 1025px){
 	.container, .column , article, footer{
 
 		display: -webkit-box;
@@ -657,6 +657,7 @@ footer .list-icon{
 		-ms-flex-pack: distribute;
 		justify-content: space-around;
 	}
+	
 
 }
 
@@ -688,7 +689,14 @@ footer .list-icon{
  	on tablets and mobile / this also is the 
  	resolution for most tablets*/
 
- 	@media screen and (max-width: 900px) {
+ 	@media screen and (max-width: 1024px) {
+ 		header, header img, .navbar a {
+ 			
+ 			height: 6rem;
+ 			font-size: 1rem;
+ 			
+ 		}
+ 		
  		.column{
 
  			margin: auto;
@@ -704,7 +712,7 @@ footer .list-icon{
  /* hide the header image on mobiles and lower the navbar so it
  doesnt take much space on the screen */
 
- @media screen and (max-width: 585px) {
+ @media screen and (max-width: 900px) {
 
  	header{
 

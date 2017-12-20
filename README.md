@@ -96,9 +96,9 @@ Använde samma värde för att uppfylla samma krav som var att bli lite luftigare ä
 Eftersom Jag körde med en 3 column layout valde jag att göra 30% width på mina wrapper and sedan lägga till en 
 justify-content: space around; som såg till att alla får det samma bredd och flyter ifrån varandra oavsett bredd.
 
-5.css rad 649 @media all and (min-width: 900px)
+5.css rad 649 @media all and (min-width: 1025px)
 
-jag gav värdet 900px för att de flesta desktop skärmar stiger över det värdet vilket det förhoppningsvis kommer att uppfylla sålänge det är en desktop. 
+jag gav värdet 1025px för att de flesta desktop skärmar stiger över det värdet vilket det förhoppningsvis kommer att uppfylla sålänge det är en desktop. 
 
 Responsiv Mönster
 
