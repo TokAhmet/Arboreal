@@ -73,6 +73,7 @@
  		margin: auto;
  		padding-bottom: 0.5rem; 
  		text-transform: uppercase;
+ 		text-align: center;
  	}
 
  	.navbar li{
@@ -528,6 +529,7 @@ footer ul{
 	-ms-flex-align: center;
 
 	align-items: center;
+	text-align: center;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
