@@ -1,7 +1,10 @@
+Arboreal Del 1
+
+
 Hejsan! 
 
-Jag har skapat en hemsida får Arboreal som Ã¤r en prenumerationstjänst får företag.
-De hjälper företag att dekorera sina kontor med fina växter som man sedan betalar varje månad får att få in nya samt förnya det gamla.
+Jag har skapat en hemsida får Arboreal som är en prenumerationstjänst för företag.
+De hjälper företag att dekorera sina kontor med fina växter som man sedan betalar varje månad får att få in nya samt förnya det gamla, man får extra enheter beronde på vilken abonemang man köper.
 
 Jag har skapat en HTML,CSS,JS fil samt lagt till ett par bilder får att snygga till det lite.
 var god kolla igenom koden och se ifall du fann några fel eller något jag kunde fårbättra :).
@@ -23,6 +26,8 @@ Gratulerar Inga fel hittades.
 
 M.V.H
 Ahmet Ordulu.
+
+Feedback från Arboreal Del 1
 
 
 FÃ¶rslag pÃ¥ feedbackpunkter:
@@ -71,10 +76,12 @@ Finns det element som Ã¤r ojÃ¤mnt centrerade etc.?
 
 Arboreal del 2
 
-jag använde mig utav media-queries för samtliga bildskärmar(desktop, tablet, mobil) see css-filen.
+
+Jag använder flexbox för att strukturera sidan samt göra det enklare för mig att använda media queries när det kommer till tablet och mobila enheter.
+jag använder mig utav media-queries för samtliga bildskärmar(desktop, tablet, mobil) see css-filen.
 
 
-BreakPoints
+BreakPoints:
 
 1024px: gör headern lite mindre samt font storleken och att container klassen inte kramar sidoväggen.
 
@@ -82,20 +89,20 @@ BreakPoints
 
 480px: gör font storleken ännu mindre för smalla skärmar liksom de äldra versionerna av smartphones.
 
-Responsiv Mönster
+Responsiv Mönster:
 
 Jag har utgått från mostly fluid för att göra det så mycket responsiv som möjligt jag använde desstuom ett par max-width breakpoint som går allt från mobil anpassat till desktop skärmar, ett exempel kan vara att huvudloggan inte syns på mobil anpassade enheter.
 
-Feedback
+Feedback:
 
 då jag inte fick så mycket kritik så följde jag den feedback jag fick när det handla om theme sektionen så jag ändrade lite och gav varje tema lite mer plats samt en bild om hur den ser ut när man hover. förutom det så var det ochså att jag hade både px på vissa ställen och inte rem men jag behövde de exakta värden för att hålla alla på bättre plats.
 
 
-Fungerande Browsers
+Fungerande Browsers:
 
 Firefox
 Chrome
 Android
 IOS
 Microsoft Edge
-Internet Explorer 11,10
+Internet Explorer 11,10,9
